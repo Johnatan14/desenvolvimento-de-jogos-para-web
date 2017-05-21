@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script type="text/javascript" src="js/gameLoop.js"></script>
+		<title>Jogar</title>
+	</head>
+	<body>
+        <div class="header">            
+            <div class="logoHeader">               
+            </div>            
+        </div>
+        <div class="conteudo">               
+            <div class="article">
+                <div class="content">
+                    <h1 class="jogoh1">Jogo da Velha</h1>
+                    <form class="jogo" name="velha" method="post">
+                        <input type="button" class="campo" name="sqr1" onclick="rodada(this);">
+                        <input type="button" class="campo" name="sqr2" onclick="rodada(this);">
+                        <input type="button" class="campo" name="sqr3" onclick="rodada(this);">
+                        <br>
+                        <input type="button" class="campo" name="sqr4" onclick="rodada(this);">
+                        <input type="button" class="campo" name="sqr5" onclick="rodada(this);">
+                        <input type="button" class="campo" name="sqr6" onclick="rodada(this);">
+                        <br>
+                        <input type="button" class="campo" name="sqr7" onclick="rodada(this);">
+                        <input type="button" class="campo" name="sqr8" onclick="rodada(this);">
+                        <input type="button" class="campo" name="sqr9" onclick="rodada(this);">
+                    </form>
+                    <script type="text/javascript">
+			         reset();
+                    </script>
+                </div>
+            </div>            
+        </div>
+        <div class="footer">
+            Jogos Digitais para Web 
+        </div>
+	</body>
+</html>
