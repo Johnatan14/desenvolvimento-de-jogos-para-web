@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script type="text/javascript" src="js/gameLoop2.js"></script>
+		<title>Jogar</title>
+	</head>
+	<body>
+        <div class="header">            
+            <div class="logoHeader">               
+            </div>            
+        </div>
+        <div class="conteudo">           
+            <div class="article">
+                <div class="content">
+                    <div id="container">
+                        <div id="simon">
+                            <div id="first"></div>
+                            <div id="a" onclick="meuClique(0)"></div>
+                            <div id="b" onclick="meuClique(1)"></div>
+                            <div id="c" onclick="meuClique(2)"></div>
+                            <div id="d" onclick="meuClique(3)"></div>
+                            <div id="sixth"></div>
+                        </div>
+                        <div id="count">0</div>
+                    </div>
+                    <div id="start" onclick="inicia()">Jogar</div>
+                    <div id="fail" onclick="reinicia()">
+                        <span>Clique para tentar novamente</span>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="footer">
+            Jogos Digitais para Web 
+        </div>
+	</body>
+</html>
